@@ -1,0 +1,7 @@
+# Install a PyTorch build matching your CPU/CUDA environment first if needed.
+torch>=2.0
+torchvision>=0.15
+numpy>=1.22
+matplotlib>=3.6
+tqdm>=4.60
+pytest>=7.0

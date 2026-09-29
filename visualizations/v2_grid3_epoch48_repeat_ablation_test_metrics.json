@@ -1,0 +1,30 @@
+{
+  "checkpoint": "/home/cjc/桌面/myidea/checkpoints/v2/grid3/latest.pt",
+  "checkpoint_epoch": 48,
+  "dataset": "CIFAR-10 official test split",
+  "images": 10000,
+  "grid_size": 3,
+  "strategy": "random_frontier",
+  "dataset_base_seed": 42,
+  "same_checkpoint_and_generated_puzzles_for_both_conditions": true,
+  "results": {
+    "no_repeat": {
+      "non_seed_patch_accuracy": 0.9909625,
+      "whole_puzzle_perfect_rate": 0.9715,
+      "pairwise_accuracy": 0.9885500000000002,
+      "duplicate_puzzle_rate": 0.0,
+      "repeat_placements_per_puzzle": 0.0,
+      "repeat_placement_rate_non_seed_slots": 0.0
+    },
+    "allow_repeat": {
+      "non_seed_patch_accuracy": 0.9915375,
+      "whole_puzzle_perfect_rate": 0.9701,
+      "pairwise_accuracy": 0.9890250000000007,
+      "duplicate_puzzle_rate": 0.008,
+      "repeat_placements_per_puzzle": 0.0083,
+      "repeat_placement_rate_non_seed_slots": 0.0010375
+    }
+  },
+  "note": "allow_repeat disables only the inference-time used-candidate selection mask. The model was trained with unique-piece placement; when a candidate is reused, its candidate-level placement state records the latest occurrence.",
+  "elapsed_seconds": 19.1435329914093
+}

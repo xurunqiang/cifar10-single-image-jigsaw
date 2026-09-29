@@ -1,0 +1,25 @@
+# CIFAR-10 data and generated model checkpoints
+/data/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and experiment tracking output
+*.log
+/runs/
+/wandb/
+
+# OS/editor metadata
+.DS_Store
+.idea/
+.vscode/

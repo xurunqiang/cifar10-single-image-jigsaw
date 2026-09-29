@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/home/cjc/桌面/myidea/checkpoints/v2/grid3/latest.pt",
+  "checkpoint_epoch": 44,
+  "grid_size": 3,
+  "dataset": "CIFAR-10 official test split",
+  "images": 10000,
+  "expansion_strategy": "random_frontier",
+  "evaluation_seed": 42,
+  "non_seed_patch_accuracy": 0.9915875,
+  "whole_puzzle_perfect_rate": 0.9744,
+  "pairwise_accuracy": 0.989408333333333,
+  "duplicate_rate": 0.0,
+  "elapsed_seconds": 35.363515853881836,
+  "notes": "One fixed puzzle per official test image; known correct seed per v2 task."
+}
